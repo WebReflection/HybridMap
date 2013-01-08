@@ -37,3 +37,13 @@ Being quite new, feel free to propose something more if you believe is that need
   * **compatibility** node.js, rhino, IE < 9, everything else .. it's probably easier if you tell me which browser is not supported
   * **size** around 0.6 Kb gzipped
   * **license** Mit Style
+
+### How To Include
+
+  * in **node** simply via `var HybridMap = require("../src/HybridMap.js").HybridMap;`
+  * in any browser simply including `build/HybridMap.js` script
+
+### How To Tests
+
+  * **node** `npm install wru` then `wru test/HybridMap.js`
+  * **browsers** simply open `test.html` but if your browser does not support `XMLHttpRequest` via file protocol then `npm install polpetta` and then `polpetta` you can go to [http://localhost:1337/test.html](http://localhost:1337/test.html) now
