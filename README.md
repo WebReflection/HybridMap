@@ -40,7 +40,7 @@ Being quite new, feel free to propose something more if you believe is that need
 
 ### How To Include
 
-  * in **node** simply via `var HybridMap = require("../src/HybridMap.js").HybridMap;`
+  * in **node** after `npm install hybrid-map` simply via `var HybridMap = require("../src/HybridMap.js").HybridMap;` then `var hm = new HybridMap;`
   * in any browser simply including `build/HybridMap.js` script
 
 ### How To Tests
