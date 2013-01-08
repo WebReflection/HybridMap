@@ -1,0 +1,31 @@
+{
+  "name": "hybrid-map",
+  "version": "0.1.0",
+  "description": "the half map, half weak, fully cross platform solution",
+  "homepage": "https://github.com/WebReflection/HybridMap",
+  "keywords": [
+    "WeakMap",
+    "Map",
+    "alternative",
+    "crossplatform"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mths.be/mit"
+    }
+  ],
+  "author": "Andrea Giammarchi <andrea.giammarchi@gmail.com> (http://webreflection.blogspot.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/WebReflection/HybridMap.git"
+  },
+  "main": "./src/HybridMap.js",
+  "engines": [
+    "node",
+    "rhino"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
